@@ -1,0 +1,2 @@
+
+goog.require("figwheel.connect");
