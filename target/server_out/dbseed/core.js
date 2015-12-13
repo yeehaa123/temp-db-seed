@@ -11,10 +11,22 @@ dbseed.core.db = dbseed.core.nano.db.use("sample");
 dbseed.core.to_clj = (function dbseed$core$to_clj(json){
 return cljs.core.println.call(null,cljs.core.first.call(null,new cljs.core.Keyword(null,"rows","rows",850049680).cljs$core$IFn$_invoke$arity$1(cljs.core.js__GT_clj.call(null,json,new cljs.core.Keyword(null,"keywordize-keys","keywordize-keys",1310784252),true))));
 });
-dbseed.core.list_all = (function dbseed$core$list_all(){
-return dbseed.core.db.list(cljs.core.clj__GT_js.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"include_docs","include_docs",-65447201),true], null)),(function (err,body){
-return dbseed.core.to_clj.call(null,body);
+dbseed.core.design_doc = (function dbseed$core$design_doc(){
+return dbseed.core.db.insert(cljs.core.clj__GT_js.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"views","views",1450155487),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"test","test",577538877),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"map","map",1371690461),(function (doc){
+var flags = (doc["flags"]);
+return emit(flags,null);
+})], null)], null)], null)),"_design/query",(function (err,succes){
+return cljs.core.println.call(null,err,succes);
 }));
+});
+dbseed.core.list_all = (function dbseed$core$list_all(){
+var options = cljs.core.clj__GT_js.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"include_docs","include_docs",-65447201),true], null));
+var callback = ((function (options){
+return (function (err,body){
+return dbseed.core.to_clj.call(null,body);
+});})(options))
+;
+return dbseed.core.db.list(options,callback);
 });
 dbseed.core._main = (function dbseed$core$_main(){
 return null;

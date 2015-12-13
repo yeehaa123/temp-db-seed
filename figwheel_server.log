@@ -156,3 +156,93 @@ notifying browser that file changed:  out/dbseed/core.js
 notifying browser that file changed:  target/server_out/cljs_deps.js
 notifying browser that file changed:  out/dbseed/core.js
 [32mSuccessfully compiled "target/server_out/dbseed.js" in 0.118 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+[31mCompiling "target/server_out/dbseed.js" failed.
+[0mERROR: Unmatched delimiter ] on file /Users/yeehaa/Documents/dbseed/server_src/dbseed/core.cljs, line 21, column 47
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.061 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+[31mCompiling "target/server_out/dbseed.js" failed.
+[0mERROR: Unmatched delimiter ] on file /Users/yeehaa/Documents/dbseed/server_src/dbseed/core.cljs, line 21, column 48
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.054 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.189 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+WARNING: Use of undeclared Var dbseed.core/emit at line 23 /Users/yeehaa/Documents/dbseed/server_src/dbseed/core.cljs
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.343 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.227 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.229 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.761 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.243 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.243 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.299 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.157 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.148 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+WARNING: Use of undeclared Var dbseed.core/goal at line 25 server_src/dbseed/core.cljs
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.157 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.173 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.233 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.142 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.17 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.146 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.156 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.133 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.134 seconds.[0m
+[0mCompiling "target/server_out/dbseed.js" from ["server_src" "dev"]...
+notifying browser that file changed:  target/server_out/cljs_deps.js
+notifying browser that file changed:  out/dbseed/core.js
+[32mSuccessfully compiled "target/server_out/dbseed.js" in 0.155 seconds.[0m
