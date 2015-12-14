@@ -1,7 +1,8 @@
 goog.addDependency("base.js", ['goog'], []);
 goog.addDependency("../cljs/core.js", ['cljs.core'], ['goog.string', 'goog.object', 'goog.string.StringBuffer', 'goog.array']);
-goog.addDependency("../70207C7.js", ['cljs.nodejs'], ['cljs.core']);
-goog.addDependency("../dbseed/core.js", ['dbseed.core'], ['cljs.core', 'cljs.nodejs']);
+goog.addDependency("../dbseed/design_doc.js", ['dbseed.design_doc'], ['cljs.core']);
+goog.addDependency("../9D22AE6.js", ['cljs.nodejs'], ['cljs.core']);
+goog.addDependency("../dbseed/core.js", ['dbseed.core'], ['cljs.core', 'dbseed.design_doc', 'cljs.nodejs']);
 goog.addDependency("../cljs/core/async/impl/protocols.js", ['cljs.core.async.impl.protocols'], ['cljs.core']);
 goog.addDependency("../cljs/core/async/impl/ioc_helpers.js", ['cljs.core.async.impl.ioc_helpers'], ['cljs.core', 'cljs.core.async.impl.protocols']);
 goog.addDependency("../cljs/core/async/impl/buffers.js", ['cljs.core.async.impl.buffers'], ['cljs.core', 'cljs.core.async.impl.protocols']);

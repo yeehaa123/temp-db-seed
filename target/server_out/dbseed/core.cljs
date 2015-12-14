@@ -1,9 +1,12 @@
 (ns ^:figwheel-always dbseed.core
-    (:require [cljs.nodejs :as nodejs]))
+    (:require [cljs.nodejs :as nodejs]
+              [dbseed.design-doc :refer [design-doc]]))
 
 (nodejs/enable-util-print!)
 
 (defonce nano ((nodejs/require "nano") "http://localhost:5984"))
+
+(def design-doc-name "_design/query")
 
 (def db (-> nano
             .-db
@@ -11,21 +14,23 @@
 
 (defn to-clj [json]
   (-> json
-      (js->clj :keywordize-keys true)
-      :rows
-      first
-      println))
+      (js->clj :keywordize-keys true)))
 
-(defn design_doc []
-  (.insert db
-           (clj->js
-            { :views
-             { :test
-              { :map (fn [doc]
-                       (let [flags (aget doc "flags")]
-                         (js/emit flags nil)))}}})
-           "_design/query"
+(defn insert-doc [doc]
+  (.insert db (clj->js doc) design-doc-name
            (fn [err succes] (println err succes))))
+
+(defn delete-doc [name rev cb]
+  (.destroy db name rev cb))
+
+(defn update-design-doc []
+  (.get db design-doc-name
+        (fn [err body]
+          (if-let [rev (:_rev (to-clj body))]
+            (delete-doc design-doc-name rev
+                        (fn [err body]
+                          (when-not err (insert-doc design-doc))))
+            (insert-doc design-doc)))))
 
 (defn list-all []
   (let [options (clj->js {:include_docs true})
